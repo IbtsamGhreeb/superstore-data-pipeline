@@ -49,10 +49,10 @@ Snowflake Account Access (Role and Warehouse permissions)
 Installation Steps
 Clone the Repository:
 
-```markdown
+``` markdown
 ### Installation Steps
 
-1.  **Clone the Repository:**
+1.  ** Clone the Repository: **
     ```bash
     git clone [https://github.com/your-username/superstore-data-pipeline.git](https://github.com/your-username/superstore-data-pipeline.git)
     cd superstore-data-pipeline
