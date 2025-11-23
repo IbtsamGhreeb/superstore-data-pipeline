@@ -35,14 +35,13 @@ The Gold Layer is designed using a Star Schema to ensure optimal query performan
 
 ## 🛠️ 1. Setup and Installation
 
-Prerequisites
+Prerequisites: 
+
 Python 3.10+
 
 Docker and Docker Compose 
 
 Snowflake Account Access (Role and Warehouse permissions)
-Installation Steps
-Clone the Repository:
 
 ### Installation Steps
 
