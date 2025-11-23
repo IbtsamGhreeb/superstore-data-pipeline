@@ -32,6 +32,30 @@ This project implements a **Medallion Architecture** workflow for transforming S
 The Gold Layer is designed using a Star Schema to ensure optimal query performance for Power BI.
 <img width="1087" height="715" alt="Modeling" src="https://github.com/user-attachments/assets/7c539826-ddc8-474b-94de-30f5353d5ac4" />
 
+## 📈 Visualization and Business Insights (Power BI)
+The Power BI report is configured to connect directly to the cleaned and modeled tables in Snowflake.
+
+Platform: Microsoft Power BI Desktop / Service
+
+Data Source: Snowflake Data Warehouse
+
+Connection Mode: Import Mode
+
+note: data is refreshed daily/hourly, providing fast dashboard performance.
+
+## Core Insights and Metrics
+The dashboard is designed to answer the following core business questions:
+
+1. Profitability Analysis: Tracks Profit Margin and Return on Investment (ROI) by region and product category.
+
+2. Sales Trends: Monitors month-over-month and year-over-year Sales Growth and volume.
+
+3. Customer Performance: Identifies top customers and measures sales by customer segment.
+
+4. Operational Efficiency: Tracks the average time from Order Date to Ship Date.
+
+<img width="1324" height="740" alt="Dashboard page" src="https://github.com/user-attachments/assets/92d6b366-491a-438e-853b-db93840fe32c" />
+
 
 ## 🛠️ 1. Setup and Installation
 
