@@ -12,12 +12,13 @@ This project implements a **Medallion Architecture** workflow for transforming S
 4. **Visualization** – Power BI dashboards connect to Snowflake to generate insights from Gold tables.
 
  ##  Key Technologies
-Orchestration: Mage AI	Pipeline development, scheduling, and execution (E, T, L).
-Data Source:CSV	Initial raw data ingestion.
-Data Warehouse	:Snowflake	Cloud Data Warehouse and storage for all Medallion layers.
-Modeling	Medallion Architecture (Gold Layer)	:Dimensional modeling for BI readiness.
-Visualization	:Power BI	Final dashboard and reporting.
-
+| Component | Technology |
+|----------|------------|
+| **Orchestration / ETL** | Mage AI |
+| **Storage Source** | CSV |
+| **Data Warehouse** | Snowflake |
+| **Data Modeling** | Medallion Architecture (Gold Layer) |
+| **Visualization** | Power BI |
 
  ## 🏗️ Pipeline Architecture
 
