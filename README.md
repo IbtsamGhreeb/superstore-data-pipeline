@@ -54,7 +54,7 @@ Clone the Repository:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/your-username/superstore-data-pipeline.git](https://github.com/your-username/superstore-data-pipeline.git)
+    git clone [https://github.comIbtsamGhreeb/superstore-data-pipeline.git](https://github.com/IbtsamGhreeb/superstore-data-pipeline.git)
     cd superstore-data-pipeline
     ```
 
