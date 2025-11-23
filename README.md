@@ -32,11 +32,6 @@ This project implements a **Medallion Architecture** workflow for transforming S
 The Gold Layer is designed using a Star Schema to ensure optimal query performance for Power BI.
 <img width="1087" height="715" alt="Modeling" src="https://github.com/user-attachments/assets/7c539826-ddc8-474b-94de-30f5353d5ac4" />
 
-This is an excellent, visually rich, and well-structured README! The immediate display of the three key diagrams (Architecture, DAG, and ERD) makes it highly effective.
-
-To make it a complete and professional data engineering document, you need to add the operational and developer-focused sections—the "How-to" instructions that a new team member would need.
-
-Here are the essential sections to add:
 
 ## 🛠️ 1. Setup and Installation
 
