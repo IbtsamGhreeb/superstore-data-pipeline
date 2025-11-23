@@ -57,16 +57,18 @@ Clone the Repository:
     git clone [https://github.com/your-username/superstore-data-pipeline.git](https://github.com/your-username/superstore-data-pipeline.git)
     cd superstore-data-pipeline
     ```
+
 2.  **Install Python Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
+
 3.  **Start Mage AI (using Docker):**
     ```bash
     docker compose up -d
     ```
     *This command will start the Mage server and all required services.*
 
-4.  **Access Mage UI:** Open your browser to `http://localhost:6789`.
+4.  **Access Mage UI:** Open your browser to `http://localhost:6789`..
 
 
