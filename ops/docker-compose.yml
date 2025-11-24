@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  mage:
+    build:
+      context: .
+    command: mage start ${PROJECT_NAME}
+    env_file:
+      - .env
+    environment:
+      USER_CODE_PATH: /home/src/${PROJECT_NAME}
+      ENV: dev
+    ports:
+      - "6789:6789"
+    volumes:
+      - .:/home/src/
+    restart: on-failure:5
+    extra_hosts:
+      - "sqlhost:192.168.1.5"   # ← CRITICAL: enables Docker → Windows host
