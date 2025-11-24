@@ -50,10 +50,10 @@ Data Source: Snowflake Data Warehouse.
 
 Before opening, configure the Snowflake connection with your own credentials.
 
-- Server: <your_account>.snowflakecomputing.com  
+- Server: <YOUR_ACCOUNT>.snowflakecomputing.com  
 - Warehouse: YOUR_WAREHOUSE  
-- Database: SNOWFLAKE_LEARNING_DB  
-- Schema: PUBLIC  
+- Database: YOUR_DATABASE
+- Schema: YOUR_SCHEMA  
 - User / Password: YOUR_CREDENTIALS
 
 Connection Mode: Import Mode
