@@ -1,0 +1,12 @@
+# NOTE:
+# You DO NOT need to install these if using Mage Cloud or the Mage Docker image.
+# Mage already includes these dependencies.
+# This file is only for optional local development without Docker.
+mage-ai==0.9.60
+pandas==2.1.4
+numpy==1.26.2
+pyarrow==14.0.2
+snowflake-connector-python==3.6.0
+snowflake-sqlalchemy==1.5.1
+SQLAlchemy==2.0.23
+python-dotenv==1.0.0
