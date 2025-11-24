@@ -90,7 +90,7 @@ Snowflake Account Access (Role and Warehouse permissions)
     pip install -r requirements.txt
     ```
 
-    OTE:
+## NOTE:
  
  You DO NOT need to install these if using Mage Cloud or the Mage Docker image.
  Mage already includes these dependencies.
