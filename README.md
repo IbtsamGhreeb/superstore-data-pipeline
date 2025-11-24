@@ -86,12 +86,16 @@ Snowflake Account Access (Role and Warehouse permissions)
     ```
 
 2.  **Install Python Dependencies:**
+## NOTE:
+## You DO NOT need to install these if using Mage Cloud or the Mage Docker image.
+## Mage already includes these dependencies.
+## This file is only for optional local development without Docker.
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Start Mage AI (using Docker):**
+4.  **Start Mage AI (using Docker):**
 
     ```bash
     docker compose up -d
@@ -99,6 +103,6 @@ Snowflake Account Access (Role and Warehouse permissions)
 
     *This command will start the Mage server and all required services.*
 
-4.  **Access Mage UI:** Open your browser to `http://localhost:6789`.
+5.  **Access Mage UI:** Open your browser to `http://localhost:6789`.
 
 
