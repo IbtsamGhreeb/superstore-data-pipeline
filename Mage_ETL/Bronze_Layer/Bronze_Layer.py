@@ -15,7 +15,7 @@ if 'test' not in globals():
     from mage_ai.data_preparation.decorators import test
 
 # Path to your ZIP file (update as needed)
-ZIP_PATH = '/home/src/Data/archive (4).zip'
+ZIP_PATH = '/home/src/Data/Superstore.zip'
 
 
 @data_loader
