@@ -2,25 +2,6 @@
 
 A Medallion Architecture data pipeline for the Superstore dataset using Mage ETL and Snowflake, with analytics and dashboards in Power BI
 
-## Folder Structure
-superstore-data-pipeline/
-├── .devcontainer/
-├── .git/
-├── .github/
-├── .gitignore
-├── .env.example
-├── README.md
-├── requirements.txt
-├── data/
-│   └── raw/
-│
-├── ops/                      # NEW FOLDER for operational files
-│   └── docker-compose.yml    # Defines the Mage server and service startup
-│
-└── superstore_mage_project/  # The core Mage AI workspace
-    ├── blocks/
-    ├── pipelines/
-    └── io_config.yaml
 
 ## Pipeline Overview
 
