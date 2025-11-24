@@ -2,25 +2,6 @@
 
 A Medallion Architecture data pipeline for the Superstore dataset using Mage ETL and Snowflake, with analytics and dashboards in Power BI
 
-## Folder Structure
-superstore-data-pipeline/
-├── .devcontainer/
-├── .git/
-├── .github/
-├── .gitignore
-├── .env.example
-├── README.md
-├── requirements.txt
-├── data/
-│   └── raw/
-│
-├── ops/                      # NEW FOLDER for operational files
-│   └── docker-compose.yml    # Defines the Mage server and service startup
-│
-└── superstore_mage_project/  # The core Mage AI workspace
-    ├── blocks/
-    ├── pipelines/
-    └── io_config.yaml
 
 ## Pipeline Overview
 
@@ -105,12 +86,15 @@ Snowflake Account Access (Role and Warehouse permissions)
     ```
 
 2.  **Install Python Dependencies:**
-
     ```bash
     pip install -r requirements.txt
     ```
+NOTE:
+ You DO NOT need to install these if using Mage Cloud or the Mage Docker image.
+ Mage already includes these dependencies.
+ This file is only for optional local development without Docker.
 
-3.  **Start Mage AI (using Docker):**
+4.  **Start Mage AI (using Docker):**
 
     ```bash
     docker compose up -d
@@ -118,6 +102,6 @@ Snowflake Account Access (Role and Warehouse permissions)
 
     *This command will start the Mage server and all required services.*
 
-4.  **Access Mage UI:** Open your browser to `http://localhost:6789`.
+5.  **Access Mage UI:** Open your browser to `http://localhost:6789`.
 
 
