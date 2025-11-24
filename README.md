@@ -47,6 +47,13 @@ The Power BI report is configured to connect directly to the cleaned and modeled
 Platform: Microsoft Power BI Desktop / Service
 
 Data Source: Snowflake Data Warehouse
+Before opening, configure the Snowflake connection with your own credentials.
+
+- Server: <your_account>.snowflakecomputing.com  
+- Warehouse: YOUR_WAREHOUSE  
+- Database: SNOWFLAKE_LEARNING_DB  
+- Schema: PUBLIC  
+- User / Password: YOUR_CREDENTIALS
 
 Connection Mode: Import Mode
 
