@@ -1,0 +1,10 @@
+  SNOWFLAKE_USER: YOUR_USERNAME
+  SNOWFLAKE_PASSWORD: YOUR_PASSWORD
+  SNOWFLAKE_ACCOUNT: YPUR_ACCOUNT
+  SNOWFLAKE_DEFAULT_WH: SNOWFLAKE_LEARNING_WH                  # Optional default warehouse
+  SNOWFLAKE_DEFAULT_DB: SNOWFLAKE_LEARNING_DB                  # Optional default database
+  SNOWFLAKE_DEFAULT_SCHEMA: PUBLIC              # Optional default schema
+  SNOWFLAKE_PRIVATE_KEY_PASSPHRASE: null      # Optional private key passphrase
+  SNOWFLAKE_PRIVATE_KEY_PATH: null            # Optional private key path
+  SNOWFLAKE_ROLE: ACCOUNTADMIN                        # Optional role name
+  SNOWFLAKE_TIMEOUT: null                     # Optional timeout in seconds
