@@ -30,6 +30,14 @@ This project implements a **Medallion Architecture** workflow for transforming S
 
 ## 📊 Gold Layer Data Model 
 The Gold Layer is designed using a Star Schema to ensure optimal query performance for Power BI.
+The Gold layer contains dimensional and fact tables created in Mage AI.
+
+- dim_customers
+- dim_products
+- dim_dates
+- fact_sales
+
+These tables are modeled in Mage (Transform blocks) and loaded to Snowflake.
 <img width="1087" height="715" alt="Modeling" src="https://github.com/user-attachments/assets/7c539826-ddc8-474b-94de-30f5353d5ac4" />
 
 ## 📈 Visualization and Business Insights (Power BI)
