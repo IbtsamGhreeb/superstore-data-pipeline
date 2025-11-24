@@ -2,6 +2,26 @@
 
 A Medallion Architecture data pipeline for the Superstore dataset using Mage ETL and Snowflake, with analytics and dashboards in Power BI
 
+## Folder Structure
+superstore-data-pipeline/
+├── .devcontainer/
+├── .git/
+├── .github/
+├── .gitignore
+├── .env.example
+├── README.md
+├── requirements.txt
+├── data/
+│   └── raw/
+│
+├── ops/                      # NEW FOLDER for operational files
+│   └── docker-compose.yml    # Defines the Mage server and service startup
+│
+└── superstore_mage_project/  # The core Mage AI workspace
+    ├── blocks/
+    ├── pipelines/
+    └── io_config.yaml
+
 ## Pipeline Overview
 
 This project implements a **Medallion Architecture** workflow for transforming Superstore sales data:
@@ -30,6 +50,14 @@ This project implements a **Medallion Architecture** workflow for transforming S
 
 ## 📊 Gold Layer Data Model 
 The Gold Layer is designed using a Star Schema to ensure optimal query performance for Power BI.
+The Gold layer contains dimensional and fact tables created in Mage AI.
+
+- dim_customers
+- dim_products
+- dim_dates
+- fact_sales
+
+These tables are modeled in Mage (Transform blocks) and loaded to Snowflake.
 <img width="1087" height="715" alt="Modeling" src="https://github.com/user-attachments/assets/7c539826-ddc8-474b-94de-30f5353d5ac4" />
 
 ## 📈 Visualization and Business Insights (Power BI)
